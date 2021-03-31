@@ -1,0 +1,8 @@
+BST Notes
+Tree is undirected graph in which any two vetices are connected by exactly one path 
+meaning acayclic undirected graph.
+every node in the bst can have most two children: left children is smaller than parent node while right children are higher than parent.
+Height of a bst tree is O(logn) layer 1 has 2^0 nodes, layer 2 has 2^1 nodes, layer 3 has 2^2...etc
+Balance tree : running time is O(logn)
+Imbalanced tree : running time is O(n)
+
