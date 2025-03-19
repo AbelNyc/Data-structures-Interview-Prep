@@ -1,0 +1,26 @@
+# Graphs — Key Concepts and Algorithms
+
+| **Concept**                    | **Definition / Key Points**                                                                                       |
+|---------------------------------|--------------------------------------------------------------------------------------------------------------------|
+| **Vertices (Nodes)**            | The points in a graph where edges connect.                                                                         |
+| **Edges (Lines)**               | Connections between vertices; can be directed or undirected.                                                       |
+| **Directed Graph (Digraph)**    | Edges have direction; from one vertex to another.                                                                  |
+| **Undirected Graph**            | Edges have no direction; connection goes both ways.                                                                |
+| **Weighted Graph**              | Each edge has an associated numerical weight.                                                                      |
+| **Out-degree**                  | Number of edges leaving a vertex.                                                                                  |
+| **In-degree**                   | Number of edges entering a vertex.                                                                                 |
+| **Graph Representation**        | - Adjacency List (sparse graphs) <br> - Adjacency Matrix (dense graphs)                                            |
+| **BFS (Breadth-First Search)**  | Used for shortest path in unweighted graphs, level order traversal, and connectivity checks.                        |
+| **DFS (Depth-First Search)**    | Used for exploring paths, connectivity checks, cycle detection, and topological sorting.                            |
+| **Cycle Detection (Undirected)**| Use Union-Find or DFS with parent tracking.                                                                         |
+| **Cycle Detection (Directed)**  | Use DFS with WHITE/GRAY/BLACK visitation states.                                                                    |
+| **Topological Sort**            | Applicable only for DAGs; use DFS-based sort or Kahn’s algorithm (BFS-based).                                       |
+| **Shortest Path (Unweighted)**  | BFS.                                                                                                                |
+| **Shortest Path (Weighted, non-negative)** | Dijkstra’s algorithm with priority queue.                                                                 |
+| **Shortest Path (with negative edges)**    | Bellman-Ford algorithm.                                                                                     |
+| **All-pairs shortest paths**    | Floyd-Warshall algorithm.                                                                                           |
+| **Minimum Spanning Tree (MST)** | Kruskal’s algorithm (sort + Union-Find) or Prim’s algorithm (PQ-based).                                             |
+| **Union-Find (Disjoint Set)**   | Data structure used to track disjoint components and detect cycles.                                                 |
+| **Strongly Connected Components** | Kosaraju’s algorithm (for directed graphs).                                                                       |
+| **Graph Backtracking**          | Used for grid or board-based search problems (e.g., word search).                                                  |
+| **Advanced Topics**             | Hamiltonian paths, bridges/articulation points (Tarjan’s algorithm), graph coloring, shortest paths with constraints. |
