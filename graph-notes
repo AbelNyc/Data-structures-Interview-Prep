@@ -24,3 +24,23 @@
 | **Strongly Connected Components** | Kosaraju’s algorithm (for directed graphs).                                                                       |
 | **Graph Backtracking**          | Used for grid or board-based search problems (e.g., word search).                                                  |
 | **Advanced Topics**             | Hamiltonian paths, bridges/articulation points (Tarjan’s algorithm), graph coloring, shortest paths with constraints. |
+
+
+
+
+#	Problem Name	Category	Key Concepts	LeetCode #
+1	Number of Islands	Basic BFS/DFS	Connected components, grid-as-graph	LC #200
+2	Clone Graph	BFS/DFS	Graph traversal, hashmap for visited nodes	LC #133
+3	Course Schedule	Cycle Detection in Directed Graph	Topological sort, DFS cycle detection	LC #207
+4	Course Schedule II	Topological Sort	Kahn’s algorithm or DFS-based topological sort	LC #210
+5	Pacific Atlantic Water Flow	Multi-source BFS/DFS	Reversed BFS/DFS from borders, intersection of results	LC #417
+6	Detect Cycle in Undirected Graph	Cycle Detection	Union-Find or DFS with parent	LC #684
+7	Network Delay Time	Shortest Path	Dijkstra’s algorithm (weighted directed graph)	LC #743
+8	Minimum Spanning Tree (Kruskal/Prim)	MST	Practice building MST using both algorithms	Practice-based (no single LC # — but Kruskal/Prim questions frequently show up)
+9	Redundant Connection II	Cycle Detection (Directed)	Find edge causing cycle in directed graph	LC #685
+10	Cheapest Flights Within K Stops	BFS + Dijkstra Variant	Shortest path with constraints	LC #787
+11	Alien Dictionary	Topological Sort (Tricky)	Construct graph from ordering constraints	LC #269 (Premium)
+12	Reconstruct Itinerary	Eulerian Path	Backtracking with graph traversal	LC #332
+13	Strongly Connected Components (Advanced)	Tarjan’s or Kosaraju’s	Identify SCCs in directed graphs	Hard / external practice recommended
+14	Find Critical Connections (Bridges)	Tarjan’s Algorithm	Advanced: finding bridges in a network	LC #1192
+15	Word Search II	Backtracking + Trie + Graph Search	Advanced backtracking over large search space	LC #212
